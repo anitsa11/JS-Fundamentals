@@ -8,11 +8,14 @@ body, ul {
 }
 
 header {
-    box-shadow: 0px 3px 8px -4px white;
     padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.page-header {
+    box-shadow: 0px 3px 8px -4px white;
 }
 
 header nav ul {
@@ -58,7 +61,8 @@ header nav ul {
     padding: 12px 16px;
     border: none;
     text-transform: uppercase;
-    box-shadow: 0px 3px 8px -4px white;   
+    box-shadow: 0px 3px 8px -4px #ccc;   
+    font-weight: bold;
 }
 
 .intro {
@@ -214,4 +218,76 @@ header nav ul {
     padding-left: 16px;
     padding-right: 16px;
 }
+
+.programs-content{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.programs{
+    margin: 40px auto;
+}
+
+.program{
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.program.software {
+    border: 3px solid #44a9f8;
+    background: #e3f3fd;
+}
+
+.program.software .program-header h4 {
+    color: #44A9F8;
+    margin-left: 10px;
+}
+
+.program.hardware {
+    border: 3px solid #00af9b;
+    background: #dff4f1;
+}
+
+.program.hardware .program-header h4 {
+    color: #00af9b;
+    margin-left: 10px;
+}
+
+.program-header {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.program-header h3 {
+    padding: 0px 30px;
+    font-size: 21px;
+}
+
+.program-header h4 {
+    font-size: 30px;
+    margin: 0 ;
+}
+
+/* .program.software h4 {
+    font-size: 30px;
+    border: #44a9f8;
+} */
+
+.programs header {
+    display: block;
+    text-align: center;
+}
+
+.programs header h2 {
+    color: #41bead;
+    font-size: 28px; 
+}
+
+.program-content {
+    text-align: center;
+    padding: 20px;
+}
+
 
